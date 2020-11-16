@@ -1,12 +1,32 @@
 
-.logo_text {
+.ShopPage .logo_text {
     margin-left: 10px;
 }
-.navbar-text {
+.ShopPage .navbar-text {
     margin-left: auto;
     margin-right: 200px;
 }
-.nav-link {
+.ShopPage .nav-link {
     margin-left: 50px;
     padding: 0px;
+}
+
+.ShopPage .logo {
+    margin-left: 20px
+}
+
+.ShopPage .home {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+body {
+    background-color: rgb(241, 241, 241);
+}
+.container {
+    padding-top: 100px;
 }

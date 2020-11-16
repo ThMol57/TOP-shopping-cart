@@ -5,8 +5,6 @@ import ShopPage from "./components/ShopPage"
 
 const Routes = () => {
 
-    var productCart = [];
-    var products = [];
 
     return (
         <BrowserRouter>
@@ -14,16 +12,11 @@ const Routes = () => {
             <Switch>
                 
                 <Route path="/" exact> 
-                <HomePage 
-                totalCart={productCart.length} 
-                /> 
+                <HomePage/> 
                 </Route>
 
                 <Route path="/cart" exact> 
-                <ShopPage 
-                productCart={productCart}
-                totalCart={productCart.length}
-                /> 
+                <ShopPage/> 
                 </Route>
 
             </Switch>
